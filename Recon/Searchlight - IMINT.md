@@ -68,7 +68,7 @@ This name is partially visible in the picture so I searched through all the tube
 
 I searched for the Edinburgh Woolen Mill in Scotland from the picture and searched for the branch with similar looking picture. Upon inspecting the location on google map a shop was visible known as Wee Coffee Shop
 
-![Wee Coffee Shop](/IMAGES/IMINT-Weecoffe.png)
+![Wee Coffee Shop](/IMAGES/IMINT/IMINT-Weecoffe.png)
 
 - Which street is this coffee shop located in?
 
@@ -129,7 +129,7 @@ Searched this question with the image search and got the answer
 
 This question was a tough one but I found out after using image in google search through an article having **Albert V bryan Courthouse** name visible in the picture. 
 
-![Albert V Bryan Courthouse](/IMAGES/IMINT-Location(V.%20Bryan%20Courthouse).png)
+![Albert V Bryan Courthouse](/IMAGES/IMINT/IMINT-Location(V.%20Bryan%20Courthouse).png)
 
 Searching this name gave away the answer as **Alexandria, Virginia**
 
@@ -139,7 +139,7 @@ Searching this name gave away the answer as **Alexandria, Virginia**
 
 Utilizing the above search of Albert V Bryan Courthouse I looked up the map for the place and found out the answer to this question
 
-![the westin alexandria old town](/IMAGES/IMINT-WestinAlexandriaOldtown.png)
+![the westin alexandria old town](/IMAGES/IMINT/IMINT-WestinAlexandriaOldtown.png)
 
 
 ## Task 9 - The view from my hotel room
@@ -154,7 +154,7 @@ However we can also do the recon without this tool easily by playing the video.
 
 From the obtained frames I got a place called **Riverside Point** which I searched through google maps and found out there is place called **CLark Quay** in front of it but no visible hotels. Upon opening Clark Quay (I searched through writeups and got the hint that the hotel used to be here) in google street view I found an image of **novotel singapore clarke quay hotel** which was the answer to the question.
 
-![novotel singapore clarke quay](/IMAGES/IMINT-ClarkQuay.png)
+![novotel singapore clarke quay](/IMAGES/IMINT/IMINT-ClarkQuay.png)
 
 ### Answer the questions below
 

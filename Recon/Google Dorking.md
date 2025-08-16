@@ -17,7 +17,7 @@ One being by pure discovery, where URL is visited by the crawler and information
 
 Once a web crawler discovers a domain such as **mywebsite.com**, it will index the entire contents of the domain, looking for keywords and other miscellaneous information.
 
-![Image](/IMAGES/Google%20Dorking.png)
+![Image](/IMAGES/Google%20Dorking/Google%20Dorking.png)
 
 In the diagram, the search engine crawls a website named **mywebsite.com** and finds the words "Apple", "Banana" and "Pear". These words are then stored in a dictionary by the crawler, who then returns these to search engine i.e, Google.
 
@@ -215,13 +215,13 @@ Comparable to geographical maps in real life, “Sitemaps” are just that - but
 
 “Sitemaps” are indicative resources that are helpful for crawlers, as they specify the necessary routes to find content on the domain. The below illustration is a good example of the structure of a website, and how it may look on a "Sitemap":
 
-![Sitemaps](/IMAGES/Sitemaps.png)
+![Sitemaps](/IMAGES/Google%20Dorking/Sitemaps.png)
 
 The blue rectangles represent the route to nested-content, similar to a directory I.e. “Products” for a store. Whereas, the green rounded-rectangles represent an actual page. However, this is for illustration purposes only - “Sitemaps” don't look like this in the real world.
 
 They look something like this:
 
-![Sitemaps XML](/IMAGES/Sitemaps_XML.png)
+![Sitemaps XML](/IMAGES/Google%20Dorking/Sitemaps_XML.png)
 
 “Sitemaps” are XML formatted
 
@@ -253,7 +253,7 @@ Google has a lot of websites crawled and indexed. For e.g, a user uses Google to
 
 Say if we wanted to narrow down our search query, we can use quotation marks. Google will interpret everything in between these quotation marks as exact and only return the results of the exact phrase provided...Rather useful to filter through the rubbish that we don't need as we have done so below:
 
-![Google Dorking Example](/IMAGES/Google_Dorking(1).png)
+![Google Dorking Example](/IMAGES/Google%20Dorking/Google_Dorking(1).png)
 
 ### Refining our Queries
 
@@ -276,7 +276,7 @@ For example, let's say we wanted to use Google to search for all PDFs on bbc.co.
 
 **site:bbc.co.uk filetype:pdf**
 
-![Google Dorking Example](/IMAGES/Google_Dorking(2).png)
+![Google Dorking Example](/IMAGES/Google%20Dorking/Google_Dorking(2).png)
 
 ### Answer the questions below
 

@@ -409,7 +409,7 @@ Read through this script. What does it depend on?
 
 Used the `cat /usr/share/nmap/scripts/smb-os-discovery.nse | grep "dependencies"` command
 
-![nmap-grep-smb](/IMAGES/nmap-grep-smb.png)
+![nmap-grep-smb](/IMAGES/Nmap/nmap-grep-smb.png)
 
 `smb-brute`
 
@@ -455,7 +455,7 @@ Use what you've learnt to scan the target machine and answer the following quest
 
     `N`
 
-    ![nmap-ICMP-scan](/IMAGES/nmap-ICMP-scan.png)
+    ![nmap-ICMP-scan](/IMAGES/Nmap/nmap-ICMP-scan.png)
 
     The basic command used here is: `nmap -sN <target-ip>`
 
@@ -463,7 +463,7 @@ Use what you've learnt to scan the target machine and answer the following quest
 
     `999`
 
-    ![nmap-xmas-scan](/IMAGES/nmap-xmas-scan.png)
+    ![nmap-xmas-scan](/IMAGES/Nmap/nmap-xmas-scan.png)
 
     The basic command used here is: `nmap -sX -p1-999 <target-ip>`
 
@@ -477,7 +477,7 @@ Use what you've learnt to scan the target machine and answer the following quest
 
     `5`
 
-    ![nmap-TCP-scan](/IMAGES/nmap-TCP-scan.png)
+    ![nmap-TCP-scan](/IMAGES/Nmap/nmap-TCP-scan.png)
 
     Basic Command Syntax: `nmap -sT -p1-5000 <target-ip> -Pn`
 
@@ -485,7 +485,7 @@ Use what you've learnt to scan the target machine and answer the following quest
 
     `Y`
 
-    ![nmap-FTP-scan](/IMAGES/nmap-FTP-scan.png)
+    ![nmap-FTP-scan](/IMAGES/Nmap/nmap-FTP-scan.png)
 
     Basic Command Syntax: `nmap --script=ftp-anon -p21 <target-ip> -Pn`
 
