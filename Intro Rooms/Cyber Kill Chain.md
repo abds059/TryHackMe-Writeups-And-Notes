@@ -40,7 +40,7 @@ The act of collecting information about the target’s vulnerabilities and weakn
 
 - Can get noisy as it requires interaction with the target organisation
 - Using network port scanning to identify live and active hosts
-- Doing physiacal recon (Visiting the premises physically to identify entry points, security measures and personal behaviour)
+- Doing physical recon (Visiting the premises physically to identify entry points, security measures and personal behaviour)
 
 ### Counter Measure Against Reconnaisance
 
@@ -346,7 +346,7 @@ After successful installation of persistent access the attacker establishes a co
 
     Compromised devices (like IoT devices) serve as proxies, forwarding traffic to the hidden C2 server
 
-If one proxy IP is blocked, the malware seamlessly switches to another
+    If one proxy IP is blocked, the malware seamlessly switches to another
 
 ### Counter Measures Against Command and Control
 
@@ -451,7 +451,7 @@ After establishing a covert C2 communication channel, the attacker can carry out
 
 - #### Endpoint Detection and Response (EDR)
 
-    EDR solutions monitor and detect suspicious activity on endpoints.
+    EDR solutions monitor and detect suspicious activity on endpoints
 
     They can identify behaviours such as:
 
