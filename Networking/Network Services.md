@@ -613,15 +613,17 @@ could be?
 
 ---
 
-## Task 10- Exploiting FTP
+## Task 10 - Exploiting FTP
 
 ### Types of FTP Exploit
 
 Similarly to Telnet, when using FTP both the command and data channels are unencrypted. Any data sent over these channels can be intercepted and read.
 
-- With data from FTP being sent in plaintext, if a man-in-the-middle attack took place an attacker could reveal anything sent through this protocol (such as passwords). An article written by [JSCape](https://www.jscape.com/blog/bid/91906/Countering-Packet-Sniffers-Using-Encrypted-FTP) demonstrates and explains this process using ARP-Poisoning to trick a victim into sending sensitive information to an attacker, rather than a legitimate source.
+- With data from FTP being sent in plaintext, if a man-in-the-middle attack took place an attacker could reveal anything sent through this protocol (such as passwords)
 
-- When looking at an FTP server from the position we find ourselves in for this machine, an avenue we can exploit is weak or default password configurations.
+    An article written by [JSCape](https://www.jscape.com/blog/bid/91906/Countering-Packet-Sniffers-Using-Encrypted-FTP) demonstrates and explains this process using ARP-Poisoning to trick a victim into sending sensitive information to an attacker, rather than a legitimate source
+
+- When looking at an FTP server from the position we find ourselves in for this machine, an avenue we can exploit is weak or default password configurations
 
 ### Method Breakdown
 
@@ -665,7 +667,7 @@ The syntax for the command we're going to use to find the passwords is this:
 
 - What is ftp.txt?
 
-    #### Answer: ``
+    #### Answer: `THM{y0u_g0t_th3_ftp_fl4g}`
 
     #### Process:
 
@@ -688,3 +690,7 @@ Here's some things that might be useful to read after completing this room, if i
 - https://medium.com/@gregIT/exploiting-simple-network-services-in-ctfs-ec8735be5eef
 - https://attack.mitre.org/techniques/T1210/
 - https://www.nextgov.com/cybersecurity/2019/10/nsa-warns-vulnerabilities-multiple-vpn-services/160456/
+
+
+
+
