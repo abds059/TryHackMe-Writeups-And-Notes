@@ -6,7 +6,7 @@ Deploy the machine attached to this task and use nmap to enumerate it
 
 ### Answer the questions below
 
-- How many ports are open?
+- #### How many ports are open?
 
     #### Answer: `3`
 
@@ -14,7 +14,7 @@ Deploy the machine attached to this task and use nmap to enumerate it
 
     ![basic namp scan](/IMAGES/Easy%20Peasy%20CTF/basic%20nmap%20scan.png)
 
-- What is the version of nginx?
+- #### What is the version of nginx?
 
     #### Answer: `1.6.1`
 
@@ -24,7 +24,7 @@ Deploy the machine attached to this task and use nmap to enumerate it
 
     ![nmap service scan](/IMAGES/Easy%20Peasy%20CTF/nmap%20service%20scan.png)
 
-- What is running on the highest port?
+- #### What is running on the highest port?
 
     #### Answer: `Apache`
 
@@ -42,7 +42,7 @@ Now you've enumerated the machine, answer questions and compromise it!
 
 ### Answer the questions below
 
-- Using GoBuster, find flag 1.
+- #### Using GoBuster, find flag 1.
 
     #### Answer: `flag{f1rs7_fl4g}`
 
@@ -72,7 +72,7 @@ Now you've enumerated the machine, answer questions and compromise it!
 
     ![flag 1](/IMAGES/Easy%20Peasy%20CTF/first%20flag.png)
 
-- Further enumerate the machine, what is flag 2?
+- #### Further enumerate the machine, what is flag 2?
 
     #### Answer: `flag{1m_s3c0nd_fl4g}`
 
@@ -90,7 +90,7 @@ Now you've enumerated the machine, answer questions and compromise it!
 
     ![decrypting md5 hash](/IMAGES/Easy%20Peasy%20CTF/second%20flag.png)
    
-- Crack the hash with easypeasy.txt, What is the flag 3?
+- #### Crack the hash with easypeasy.txt, What is the flag 3?
 
     #### Answer: `flag{9fdafbd64c47471a8f54cd3fc64cd312}`
     #### Process:
@@ -101,7 +101,7 @@ Now you've enumerated the machine, answer questions and compromise it!
 
     ![flag2 apache](/IMAGES/Easy%20Peasy%20CTF/apache%20flag2.png)
 
-- What is the hidden directory?
+- #### What is the hidden directory?
 
     #### Answer: `/n0th1ng3ls3m4tt3r`
 
@@ -115,7 +115,7 @@ Now you've enumerated the machine, answer questions and compromise it!
 
     ![hidden directory name](/IMAGES/Easy%20Peasy%20CTF/decoding%20directory%20name.png)
    
-- Using the wordlist that provided to you in this task crack the hash? What is the password?
+- #### Using the wordlist that provided to you in this task crack the hash? What is the password?
 
     #### Answer: `mypasswordforthatjob`
 
@@ -130,7 +130,7 @@ Now you've enumerated the machine, answer questions and compromise it!
     ![stegseek hash crack](/IMAGES/Easy%20Peasy%20CTF/stegseek%20hash%20crack.png)
 
 
-- What is the password to login to the machine via SSH?
+- #### What is the password to login to the machine via SSH?
 
     #### Answer: `iconvertedmypasswordtobinary`
 
@@ -144,7 +144,7 @@ Now you've enumerated the machine, answer questions and compromise it!
 
     ![decoding ssh password from binary to normal format](/IMAGES/Easy%20Peasy%20CTF/decoding%20password%20binary%20format.png)
 
-- What is the user flag?
+- #### What is the user flag?
 
     #### Answer: `flag{n0wits33msn0rm4l}`
 
@@ -158,11 +158,11 @@ Now you've enumerated the machine, answer questions and compromise it!
 
     ![user flag](/IMAGES/Easy%20Peasy%20CTF/user%20flag.png)
 
-    However we are told that the flag is rotated so its not our answer. So we de-rotate it using [rot13](rot13.com):
+    However we are told that the flag is rotated so its not our answer. So we de- ####rotate it using [rot13](rot13.com):
 
     ![derotating the user flag](/IMAGES/Easy%20Peasy%20CTF/getting%20the%20user%20flag%20by%20derotating.png)
 
-- What is the root flag?
+- #### What is the root flag?
 
     #### Answer: `flag{63a9f0ea7bb98050796b649e85481845}`
 
@@ -189,4 +189,6 @@ Now you've enumerated the machine, answer questions and compromise it!
     Since the job runs every minute, we wait 1–2 minutes, then check if we got the root flag or not:
 
     ![root flag](/IMAGES/Easy%20Peasy%20CTF/root%20flag.png)
+
+---
 
