@@ -20,10 +20,10 @@ First we start with basic network scanning using nmap then we search for hidden 
 
     Here we can observe that only two ports are open 
 
-    - port 22 -> ssh
-    - port 80 -> http
+    - port 22 -> `ssh`
+    - port 80 -> `http`
 
-- **What version of Apache is running?**\
+- **What version of Apache is running?**
 
     #### Answer: 
     
