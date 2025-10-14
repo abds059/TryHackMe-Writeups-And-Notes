@@ -160,7 +160,7 @@ Now that we have a shell, let's escalate our privileges to root.
 
     Now we can simply search for `root.txt` file (just like we did for `user.txt` above) by using the `find` command:
 
-    `find / -type f -name root.txt 2>dev/null`
+    `find / -type f -name root.txt 2> /dev/null`
 
     After that we will simply navigate to the specified file path and retrieve the root flag.
 
@@ -168,5 +168,33 @@ Now that we have a shell, let's escalate our privileges to root.
 
 ---
 
+## Notes
 
-    
+- **Reverse Shell**: A reverse shell is when a compromised computer connects back to an attacker so the attacker can run commands on it.
+
+- **`nc -lnp <port number>`**: 
+
+    Starts a netcat listener on the given port, waiting for an incoming connection (verbose, numeric, no DNS).
+
+    - `nc` -> netcat
+    - `-l` -> listen 
+    - `-n` -> avoid DNS lookups (numeric ips only)
+    - `-v` -> verbose (show connection info)
+    - `-p` -> port number
+
+- **`find / -perm -4000 2>dev/null`**: 
+
+    This command lists SUID binaries across the filesystem (useful for finding potential privilege-escalation targets).
+
+    - `find /` -> start search from root (whole files system)
+    - `-perm 4000` -> match files having SUID bit (4 = SUID)
+    - `2> /dev/null` -> discard error messages
+
+- **SUID (Set User ID)**:
+
+    When a file has the SUID bit set, it means that any user who runs that file executes it with the file owner’s privileges, not their own.
+
+    - SUID files run with the file owner’s privileges (often root)
+    - Finding writable or misconfigured SUID binaries can lead to privilege escalation
+
+---
