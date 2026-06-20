@@ -251,11 +251,11 @@ Similar to the previous ICMP scan, this scan will send many ICMP timestamp reque
 
 ### ICMP Type 17
 
-Similarly, Nmap uses address mask queries (ICMP Type 17) and checks whether it gets an address mask reply (ICMP Type 18). This scan can be enabled with the option -PM. 
+Similarly, Nmap uses address mask queries (ICMP Type 17) and checks whether it gets an address mask reply (ICMP Type 18). This scan can be enabled with the option `-PM`. 
 
 In an attempt to discover live hosts using ICMP address mask queries, we run the command nmap -PM -sn 10.200.6.0/24. Although earlier scans showed at least 2 hosts are up, this scan returned none. The reason is that the target system or a firewall on the route is blocking this type of ICMP packet. Therefore, it is essential to learn multiple approaches to achieve the same result. If one packet type is blocked, we can always choose another to discover the target network and services.
 
-![nmap -PM scan](../Images/Nmap/Nmap%20Live%20Host%20Discovery/icmp%20pp%20scan.png)
+![nmap -PM scan](../Images/Nmap/Nmap%20Live%20Host%20Discovery/icmp%20pm%20scan.png)
 
 Although we didn’t receive any reply and couldn't determine which hosts were online, it is essential to note that this scan sent ICMP address-mask requests to every valid IP address and waited for a reply. 
 
@@ -297,7 +297,7 @@ This sends a packet with an ACK flag set. You must run Nmap as a privileged user
 
 By default, port 80 is used. The syntax is similar to TCP SYN ping. `-PA` should be followed by a port number, a port number range, a list, or a combination of them. For example, consider `-PA21, -PA21-25 and -PA80,443,8080`. If no port is specified, port 80 will be used.
 
-In this example, we run sudo nmap -PA -sn 10.200.6.0/24 to discover the online hosts on the target’s subnet. We can see that the TCP ACK ping scan detected two hosts as up.
+In this example, we run `sudo nmap -PA -sn 10.200.6.0/24` to discover the online hosts on the target’s subnet. We can see that the TCP ACK ping scan detected two hosts as up.
 
 ![nmap -PA scan](../Images/Nmap/Nmap%20Live%20Host%20Discovery/pa%20scan.png)
 
@@ -305,7 +305,7 @@ In this example, we run sudo nmap -PA -sn 10.200.6.0/24 to discover the online h
 
 Finally, we can use UDP to discover if the host is online. Unlike a TCP SYN ping, sending a UDP packet to an open port is not expected to elicit a reply. However, if we send a UDP packet to a closed UDP port, we expect to get an ICMP port-unreachable packet; this indicates that the target system is up and available.
 
-The syntax to specify the ports is similar to that of TCP SYN ping and TCP ACK ping; Nmap uses -PU for UDP ping. In the following example, we run a UDP scan and discover two live hosts.
+The syntax to specify the ports is similar to that of TCP SYN ping and TCP ACK ping; Nmap uses `-PU` for UDP ping. In the following example, we run a UDP scan and discover two live hosts.
 
 ![nmap -PU scan](../Images/Nmap/Nmap%20Live%20Host%20Discovery/pu%20scan.png)
 
