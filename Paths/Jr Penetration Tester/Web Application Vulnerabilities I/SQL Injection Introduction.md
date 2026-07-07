@@ -225,7 +225,7 @@ Then we replace that column with the `database()` function to get the database n
 
 `0 UNION SELECT 1,2,database()`
 
-**Step 4 — Enumerate tables:**
+**Step 4: Enumerate tables:**
 
 Then we can leverage the `information_schema` to get the tables in the target database:
 
@@ -808,7 +808,7 @@ Same method can be utilized to enumerate columns from `information_schema.column
 
 ![password column time based](../Images/Web%20Application%20Vulnerabilities%20I/SQL%20Injection%20Introduction/password%20column%20time%20based.png)
 
-### Step 4: Extract the admin password.
+#### Step 4: Extract the admin password.
 
 ```
 admin123' UNION SELECT SLEEP(3),2 from users where username='admin' and password like '4%';--
