@@ -2,7 +2,7 @@
 
 ## Task 1 - Introduction
 
-In the process of alert triaging or even after that there maya rise situation in which L1 analysts may require senior support due to cases that may need remediation efforts or immediate action like victim's account blockage etc. These scenarios are covered in this room with the introduction of three new terms, alert reporting, escalation and communication.
+In the process of alert triaging or even after that there may rise situation in which L1 analysts may require senior support due to cases that may need remediation efforts or immediate action like victim's account blockage etc. These scenarios are covered in this room with the introduction of three new terms, alert reporting, escalation and communication.
 
 ### Learning Objectives
 
